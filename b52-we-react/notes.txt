@@ -1,0 +1,6 @@
+useState => hooks => function
+const [state, setState] = useState(initialValue)
+const [like, setLike] = useState(0)
+
+state of the art technology
+state of mind => current state
