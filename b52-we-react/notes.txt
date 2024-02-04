@@ -4,3 +4,25 @@ const [like, setLike] = useState(0)
 
 state of the art technology
 state of mind => current state
+
+
+
+ {/* <p style={pStyle}>Hello Everyone</p> */}
+      {/* conditional rendering */}
+      {show ? <p>Hello Everyone</p> : ""}
+      <button onClick={() => setShow(!show)}>Toggle</button>
+      {/* <Props_state /> */}
+      {/* <Counter /> */}
+      {/* <div className="card">
+        <input style={styles} onChange={(event) => setColor(event.target.value)} type="text" />
+        copy the colorList and add new color
+        <button onClick={() => setColorList([...colorList, color])}>Add Color</button>
+      </div>
+      {colorList.map((clr, index) => (
+        <ColorBox key={index} color={clr} />
+      ))} */}
+      {/* <ColorBox color={colorList[0]} />
+      <ColorBox color={colorList[1]} />
+      <ColorBox color={colorList[2]} /> */}
+
+      

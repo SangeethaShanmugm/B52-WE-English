@@ -1,6 +1,7 @@
 import './App.css'
 import { useState } from "React"
 import Props_state from './Props_state'
+import LifeCycleA from './classcomponent/LifeCycleA'
 
 function App() {
   //JS starts
@@ -25,23 +26,7 @@ function App() {
   //JSX starts
   return (
     <>
-      {/* <p style={pStyle}>Hello Everyone</p> */}
-      {/* conditional rendering */}
-      {show ? <p>Hello Everyone</p> : ""}
-      <button onClick={() => setShow(!show)}>Toggle</button>
-      {/* <Props_state /> */}
-      {/* <Counter /> */}
-      {/* <div className="card">
-        <input style={styles} onChange={(event) => setColor(event.target.value)} type="text" />
-        copy the colorList and add new color
-        <button onClick={() => setColorList([...colorList, color])}>Add Color</button>
-      </div>
-      {colorList.map((clr, index) => (
-        <ColorBox key={index} color={clr} />
-      ))} */}
-      {/* <ColorBox color={colorList[0]} />
-      <ColorBox color={colorList[1]} />
-      <ColorBox color={colorList[2]} /> */}
+      <LifeCycleA />
     </>
   )
   //JSX ends
